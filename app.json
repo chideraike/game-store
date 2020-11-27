@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gamestop",
-    "slug": "gamestop",
+    "name": "Game Store",
+    "slug": "game-store",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A game store app",
+    "githubUrl": "https://github.com/chideraike/game-store"
   }
 }

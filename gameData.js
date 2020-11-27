@@ -1,0 +1,60 @@
+export default games = [
+    {
+        id: 1,
+        title: "Watch Dogs: Legion",
+        teaser: "A classical style interactive mystery set in a beautifully hand-painted world.",
+        description:
+            "Watch Dogs: Legion is a classical style interactive mystery set in a beautifully hand-painted world. Join Harper Pendrell and experience a challenging investigation, smart dialog and a rich cast of characters in this thrilling new adventure game.",
+        rating: 4.5,
+        category: ["Action", "Online", "Strategy", "Technology"],
+        age: "12+",
+        cover: require("./assets/watchdog/1.jpg"),
+        screenshots: [
+            require("./assets/watchdog/2.jpg"),
+            require("./assets/watchdog/3.png"),
+            require("./assets/watchdog/4.jpg"),
+            require("./assets/watchdog/5.jpg"),
+            require("./assets/watchdog/6.jpg"),
+        ],
+        backgroundColor: "#824571",
+    },
+    {
+        id: 2,
+        title: "FIFA 21",
+        teaser: "Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies.",
+        description:
+            "Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.",
+        rating: 4.5,
+        category: ["Sports", "Online"],
+        age: "11+",
+        cover: require("./assets/fifa21/1.jpg"),
+        screenshots: [
+            require("./assets/fifa21/2.jpg"),
+            require("./assets/fifa21/3.jpg"),
+            require("./assets/fifa21/4.jpg"),
+            require("./assets/fifa21/5.jpg"),
+            require("./assets/fifa21/6.jpg"),
+            require("./assets/fifa21/7.jpg"),
+            require("./assets/fifa21/8.jpg"),
+        ],
+        backgroundColor: "#456382",
+    },
+    {
+        id: 3,
+        title: "Fortnite",
+        teaser: "Yarny, a character made from a single thread of yarn.",
+        description:
+            "Fortnite is a physics-based puzzle platformer. Yarny, a character made from a single thread of yarn, must embark on a larger than life adventure.",
+        rating: 2.4,
+        category: ["Casual", "Indie", "Adventure"],
+        age: "13+",
+        cover: require("./assets/fortnite/1.jpg"),
+        screenshots: [
+            require("./assets/fortnite/2.jpg"),
+            require("./assets/fortnite/3.jpg"),
+            require("./assets/fortnite/4.jpg"),
+            require("./assets/fortnite/5.jpg"),
+        ],
+        backgroundColor: "#825D45",
+    },
+];
